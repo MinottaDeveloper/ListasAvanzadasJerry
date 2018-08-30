@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+
+    <TextView
+        android:id="@+id/item_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Titulo"
+        />
+
+    <TextView
+        android:id="@+id/item_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12/08/2018"
+        android:gravity="right"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/item_descripcion"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ksavbdfljhasdbkjnsdvjnksdjnvkjn"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:outlineAmbientShadowColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="like"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dislike"
+            />
+
+        <RatingBar
+            style = "?android:attr/ratingBarStyleSmall"
+            android:numStars = "5"
+            android:rating   = "4"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -38,26 +38,26 @@
         android:orientation="horizontal">
 
         <Button
-            android:outlineAmbientShadowColor="@color/colorPrimary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="like"
-            />
+            android:text="Ver más"
+            android:id="@+id/btn_verMas"/>
+
+
         <Button
+            android:id="@+id/btn_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="@color/colorPrimary"
+            android:text="like" />
+        <Button
+            android:id="@+id/btn_dislike"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dislike"
             />
 
-        <RatingBar
-            style = "?android:attr/ratingBarStyleSmall"
-            android:numStars = "5"
-            android:rating   = "4"
-            android:layout_width="180dp"
-            android:layout_height="match_parent"
 
-
-            />
 
     </LinearLayout>
 
